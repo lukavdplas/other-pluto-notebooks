@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.11.14
+# v0.12.20
 
 using Markdown
 using InteractiveUtils
@@ -14,13 +14,7 @@ macro bind(def, element)
 end
 
 # ╔═╡ e46109f4-f845-11ea-3a4e-19196c50bbb8
-using Images
-
-# ╔═╡ f86c33e4-f848-11ea-1392-8566e516d8dd
-using Plots
-
-# ╔═╡ 7aae35f2-f90a-11ea-162d-b1a6d0137512
-using PlutoUI
+using Images, Plots, PlutoUI
 
 # ╔═╡ ca75f874-f845-11ea-1d22-9352f0e872bb
 download("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Giant_Pandas_having_a_snack.jpg/1280px-Giant_Pandas_having_a_snack.jpg",
@@ -99,8 +93,6 @@ plot_curves(reds, greens, blues)
 
 # ╔═╡ Cell order:
 # ╠═e46109f4-f845-11ea-3a4e-19196c50bbb8
-# ╠═f86c33e4-f848-11ea-1392-8566e516d8dd
-# ╠═7aae35f2-f90a-11ea-162d-b1a6d0137512
 # ╠═ca75f874-f845-11ea-1d22-9352f0e872bb
 # ╠═e6a44cf8-f845-11ea-0918-6585b79b2981
 # ╠═db932344-f90a-11ea-262a-89ba870543d7
